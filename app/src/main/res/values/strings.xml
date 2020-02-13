@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Real Estate Mw</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Create Adds</string>
+    <string name="title_notifications">Search</string>
+    <string name="title_favourites">Favourites</string>
+    <string name="title_adds">Place your adds and see great performance</string>
+    <string name="place_adds">Place Adds</string>
+    <string name="forgot_password">forgot password?</string>
+    <string name="todo">TODO</string>
+    <string name="click_on_the_add_of_your_choice">CLICK ON THE ADD OF YOUR CHOICE</string>
+    <string name="property_for_rent">Property For Rent</string>
+    <string name="property_for_sale">Property For Sale</string>
+    <string name="city">title</string>
+    <string name="town">title</string>
+
+</resources>
