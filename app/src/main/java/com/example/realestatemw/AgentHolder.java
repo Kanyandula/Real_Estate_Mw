@@ -16,23 +16,20 @@ public class AgentHolder extends RecyclerView.ViewHolder {
         super(itemView);
         mView=itemView;
     }
+public void setCity (String city){
+        TextView textCity = (TextView)mView.findViewById(R.id.city);
+        textCity.setText(city);
 
-    public void setCityName (String cityName){
-        TextView textView_name = (TextView)mView.findViewById(R.id.city);
-        textView_name.setText(cityName);
+}
+public void setTown (String town){
+        TextView textTown =(TextView)mView.findViewById(R.id.town);
+        textTown.setText(town);
+}
+
+
+
+    public void setImage(Context context, String image) {
+        ImageView imageView =(ImageView)mView.findViewById(R.id.image);
+        Picasso.get().load(image).into(imageView);
     }
-
-    public void seTownName (String townName){
-        TextView textView_name = (TextView)mView.findViewById(R.id.town);
-        textView_name.setText(townName);
-    }
-    public void  setImageUrl (Context context,String imageUrl){
-        ImageView imageView = (ImageView)mView.findViewById(R.id.image);
-        Picasso.get().load(imageUrl).into(imageView);
-
-
-    }
-
-
-
 }

@@ -2,38 +2,38 @@ package com.example.realestatemw;
 
 public class Agent {
 
-    private String cityName,townMame, imageUrl;
+    private String city,town, image;
 
+    //Constractor
     public Agent (){ }
 
-    public Agent(String cityName,String townMame, String  imageUrl){
-        this.cityName=cityName;
-        this.townMame=townMame;
-        this. imageUrl= imageUrl;
-
+    public Agent (String city, String town, String image){
+        this.city=city;
+        this.town=town;
+        this.image=image;
     }
 
-    public String getCityName() {
-        return cityName;
+    public String getCity() {
+        return city;
     }
 
-    public String getTownMame() {
-        return townMame;
+    public void setCity(String city) {
+        this.city = city;
     }
 
-    public String getImageUrl() {
-        return  imageUrl;
+    public String getTown() {
+        return town;
     }
 
-    public void setCityName(String cityName) {
-        this.cityName = cityName;
+    public void setTown(String town) {
+        this.town = town;
     }
 
-    public void setTownMame(String townMame) {
-        this.townMame = townMame;
+    public String getImage() {
+        return image;
     }
 
-    public void setImageUrl(String  imageUrl) {
-        this. imageUrl =  imageUrl;
+    public void setImage(String image) {
+        this.image = image;
     }
 }
